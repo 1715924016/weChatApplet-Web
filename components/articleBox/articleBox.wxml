@@ -1,0 +1,8 @@
+<!-- 文章列表 -->
+<view class="article">
+    <view class="articleTitle"></view>
+    <view class="publisherInfo">
+        <view class="publisherName">李白</view>
+        <view class="publisherTime">2019-01-01</view>
+    </view>
+</view>
