@@ -1,0 +1,27 @@
+@import"./styles/iconfont.wxss";
+
+/* 微信小程序中不支持通配符 '*'，所以使用一些大标签来统一设定 */
+page,view,text,swiper,swiper-item,image,navigator{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*
+    主题颜色通过变量来实现，less中存在变量的知识， 原生的css、wxss中也支持变量
+*/
+page{
+    /* 主题颜色变量 */
+    --themeColor:#eb4450;
+    /* 
+    统一字体大小，假设屏幕宽375px，
+    1px=2rpx  14px=28rpx 可根据屏幕大小而发生自适应大小变化 
+    */
+    font-size: 36rpx;
+}
+
+
+
+
+
+

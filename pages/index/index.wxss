@@ -1,0 +1,4 @@
+view{
+    /* 引用主題顏色 */
+    /* color:var(--themeColor) */
+}

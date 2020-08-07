@@ -1,0 +1,10 @@
+<scroll-view scroll-x="true" class="scroll" scroll-with-animation="{{true}}">
+  <view class="scrollView">新闻</view>
+  <view class="scrollView">军事</view>
+  <view class="scrollView">热点</view>
+  <view class="scrollView">历史</view>
+  <view class="scrollView">文学</view>
+  <view class="scrollView">汽车</view>
+  <view class="scrollView">国际</view>
+  <view class="scrollView">娱乐</view>
+</scroll-view>

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "searchBox":"../../components/searchBox/searchBox",
+    "navBox":"../../components/navBox/navBox"
+  }
+}
