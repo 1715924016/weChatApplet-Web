@@ -1,1 +1,40 @@
-/* components/articleBox/articleBox.wxss */
+/* 文章列表展示样式 */
+.articleList{
+  padding: 20rpx 20rpx 0rpx 20rpx;
+}
+
+.articleTitle{
+  /* 文本溢出换行 - s */
+  text-overflow:ellipsis;
+  word-wrap:break-word;
+  /* 文本溢出换行 - e */
+  font-size: 37rpx;
+}
+
+.publisherInfo{
+  font-size: 28rpx;
+  /* 块级元素并行() */
+  display: flex;
+  /*flex-direction: column; 垂直并行，此属性默认是行（row）并行*/
+  flex-direction: row;
+  margin-top: 10rpx;
+  border-bottom: solid 1rpx rgb(231, 230, 230);
+}
+
+.publisherName{
+  margin-right: 20rpx;
+  color: gray;
+}
+
+.publisherTime{
+  color: gray;
+  margin-bottom: 15rpx;
+}
+
+.articleHr{
+  /* 列与列之间间隙大小 */
+  column-gap: 1rpx;
+  width: 95%;
+  height: 1rpx;
+  display: inline-block;
+}

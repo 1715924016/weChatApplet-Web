@@ -1,8 +1,52 @@
 <!-- 文章列表 -->
-<view class="article">
-    <view class="articleTitle"></view>
-    <view class="publisherInfo">
-        <view class="publisherName">李白</view>
-        <view class="publisherTime">2019-01-01</view>
+
+<scroll-view scroll-y="true"  scroll-with-animation="{{true}}" >
+    <view class="articleList">
+        <view class="articleTitle">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</view>
+        <view class="publisherInfo">
+            <view class="publisherName">李白</view>
+            <view class="publisherTime">2019-01-01</view>
+        </view>
+        <text class="articleHr"></text>
     </view>
-</view>
+        <view class="articleList">
+        <view class="articleTitle">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</view>
+        <view class="publisherInfo">
+            <view class="publisherName">李白</view>
+            <view class="publisherTime">2019-01-01</view>
+        </view>
+        <text class="articleHr"></text>
+    </view>
+        <view class="articleList">
+        <view class="articleTitle">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</view>
+        <view class="publisherInfo">
+            <view class="publisherName">李白</view>
+            <view class="publisherTime">2019-01-01</view>
+        </view>
+        <text class="articleHr"></text>
+    </view>
+        <view class="articleList">
+        <view class="articleTitle">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</view>
+        <view class="publisherInfo">
+            <view class="publisherName">李白</view>
+            <view class="publisherTime">2019-01-01</view>
+        </view>
+        <text class="articleHr"></text>
+    </view>
+        <view class="articleList">
+        <view class="articleTitle">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</view>
+        <view class="publisherInfo">
+            <view class="publisherName">李白</view>
+            <view class="publisherTime">2019-01-01</view>
+        </view>
+        <text class="articleHr"></text>
+    </view>
+        <view class="articleList">
+        <view class="articleTitle">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</view>
+        <view class="publisherInfo">
+            <view class="publisherName">李白</view>
+            <view class="publisherTime">2019-01-01</view>
+        </view>
+        <text class="articleHr"></text>
+    </view>
+</scroll-view>
